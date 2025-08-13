@@ -581,5 +581,7 @@ targets:
     filesets : [rtl, "tool_vivado? (vivado_tcl)"]
     tools:
       vivado :
+        part: xczu7ev-ffvc1156-2-e
+        board_part: xilinx.com:zcu104:part0:1.1
         pnr : none
     toplevel : openC910
