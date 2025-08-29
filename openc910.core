@@ -555,7 +555,7 @@ targets:
     tools:
       verilator:
         mode : lint-only
-        verilator_options : [-Wno-UNOPTFLAT, -Wno-MULTIDRIVEN -Wno-WIDTHTRUNC -Wno-WIDTHEXPAND, -Wno-IMPLICIT]
+        verilator_options : [-Wno-UNOPTFLAT, -Wno-MULTIDRIVEN -Wno-WIDTHTRUNC -Wno-WIDTHEXPAND, -Wno-IMPLICIT, -Wno-SELRANGE]
     toplevel : openC910
 
   sim:

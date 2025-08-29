@@ -216,7 +216,7 @@ limitations under the License.
 
 
 
-  `define L2_CACHE_1M
+  `define L2_CACHE_256K
 
 
 
@@ -236,8 +236,6 @@ limitations under the License.
 
 
 `define PROCESSOR_0
-
-`define MULTI_PROCESSING
 
 `ifdef MULTI_PROCESSING
   `define PROCESSOR_1
