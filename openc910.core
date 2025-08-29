@@ -552,7 +552,10 @@ targets:
     default_tool : verilator
     description : Lint the RTL. Uses Verilator by default
     filesets : [rtl]
-    tools : {verilator : {mode : lint-only}}
+    tools:
+      verilator:
+        mode : lint-only
+        verilator_options : [-Wno-UNOPTFLAT, -Wno-MULTIDRIVEN -Wno-WIDTHTRUNC -Wno-WIDTHEXPAND, -Wno-IMPLICIT]
     toplevel : openC910
 
   sim:
